@@ -28,3 +28,8 @@ html, body {
 .btn-container label {
     display: flex;
 }
+
+#dropdown {
+    width: 100%;
+}
+
