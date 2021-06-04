@@ -17,3 +17,7 @@ html, body {
     align-items: center;
     border: 1px solid black;
 }
+
+.text-input {
+    width: 100%;
+}
