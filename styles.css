@@ -3,7 +3,7 @@ html, body {
 }
 
 #main {
-    width: 100%;
+    width: 50%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -23,4 +23,8 @@ html, body {
 
 .input-container {
     width: 100%;
+}
+
+.btn-container label {
+    display: flex;
 }
