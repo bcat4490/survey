@@ -15,37 +15,56 @@
         <h1 id="title">survey</h1>
         <p id="description">description</p>
         <form action="" id="survey-form">
-            <label for="name" id="name-label">Name</label>
-            <input type="text" name="name" id="name" placeholder="Enter your name" required>
+            <div class="input-container">
+                <label for="name" id="name-label">Name</label>
+                <input type="text" name="name" id="name" placeholder="Enter your name" required>
+            </div>
         
-            <label for="email" id="email-label">Email</label>
-            <input type="email" name="email" id="email" placeholder="Enter your email address" required>
+            <div class="input-container">
+                <label for="email" id="email-label">Email</label>
+                <input type="email" name="email" id="email" placeholder="Enter your email address" required>
+            </div>
         
-            <label for="number" id="number-label">Age</label>
-            <input type="number" name="number" id="number" min="0" max="120" placeholder="Enter your age" required>
-            <label for="dropdown" id="dropdown-label">Industry</label>
-            <select name="" id="dropdown">
-                <option value="semiconductor">Semiconductor</option>
-                <option value="automotive">Automotive</option>
-                <option value="defense">Defense</option>
-                <option value="medical">Medical</option>
-                <option value="aerospace">Aerospace</option>
-                <option value="other">Other</option>
-            </select>
-            <p>Are you part of an organization?</p>
-            <input type="radio" name="org" value="org-yes" id="org-yes">
-            <label for="org-yes">Yes</label>
-            <input type="radio" name="org" value="org-no" id="org-no">
-            <label for="org-np">No</label>
-            <p>What comes in contact with seal?</p>
-            <input type="checkbox" name="app-gas" value="oxygen" id="app-oxygen">
-            <label for="app-oxygen">Oxygen</label>
-            <input type="checkbox" name="app-gas" value="methane" id="methane-oxygen">
-            <label for="">Methane</label>
-            <input type="checkbox" name="app-gas" value="other-gas" id="other-gas">
-            <label for="">Other Gas</label>
-            <label for="comments">Additional comments?</label>
-            <textarea name="comments" id="comments" cols="30" rows="10" placeholder="Comments"></textarea>
+            <div class="input-container">
+                <label for="number" id="number-label">Age</label>
+                <input type="number" name="number" id="number" min="0" max="120" placeholder="Enter your age" required>
+            </div>
+            
+            <div class="input-container">
+                <label for="dropdown" id="dropdown-label">Industry</label>
+                <select name="" id="dropdown">
+                    <option value="semiconductor">Semiconductor</option>
+                    <option value="automotive">Automotive</option>
+                    <option value="defense">Defense</option>
+                    <option value="medical">Medical</option>
+                    <option value="aerospace">Aerospace</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+           
+            <div class="input-container">
+                <p>Are you part of an organization?</p>
+                <input type="radio" name="org" value="org-yes" id="org-yes">
+                <label for="org-yes">Yes</label>
+                <input type="radio" name="org" value="org-no" id="org-no">
+                <label for="org-np">No</label>
+            </div>
+            
+            <div class="input-container">
+                <p>What comes in contact with seal?</p>
+                <input type="checkbox" name="app-gas" value="oxygen" id="app-oxygen">
+                <label for="app-oxygen">Oxygen</label>
+                <input type="checkbox" name="app-gas" value="methane" id="methane-oxygen">
+                <label for="">Methane</label>
+                <input type="checkbox" name="app-gas" value="other-gas" id="other-gas">
+                <label for="">Other Gas</label>
+            </div>
+            
+            <div class="input-container">
+                <label for="comments">Additional comments?</label>
+                <textarea name="comments" id="comments" cols="30" rows="10" placeholder="Comments"></textarea>
+            </div>
+            
             <button type="submit" id="submit">Submit</button>
         </form>
     </div>
