@@ -8,6 +8,7 @@ html, body {
     flex-direction: column;
     align-items: center;
     border: 1px solid black;
+    
 }
 
 #survey-form {
@@ -32,4 +33,10 @@ html, body {
 #dropdown {
     width: 100%;
 }
+
+#title {
+    font-size: 1.2em;
+    padding: 1rem;
+}
+
 
