@@ -1,13 +1,20 @@
-html, body {
-    width: 100vw;
+ 
+ body {
+    padding: .8em .5em;
+    background-color: #54361c;
+    font-family: 'Roboto', sans-serif;
 }
+
 
 #main {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 1px solid black;
+    background-color: #fefacd;
+    border-radius: 7px;
+    padding: 1em;
+    
     
 }
 
@@ -16,6 +23,7 @@ html, body {
     flex-direction: column;
     align-items: center;
     border: 1px solid black;
+    padding: .85em;
 }
 
 .text-input {
@@ -24,6 +32,8 @@ html, body {
 
 .input-container {
     width: 100%;
+    padding: 10px 0;
+    
 }
 
 .btn-container label {
@@ -35,8 +45,18 @@ html, body {
 }
 
 #title {
-    font-size: 1.2em;
-    padding: 1rem;
+    color: #54361c;
+    font-size: 2em;
+    font-family: 'Pacifico', cursive;
 }
+
+.title-orange {
+    color: #d5731c;
+}
+
+.title-yellow {
+    color: #ffb949;
+}
+
 
 
