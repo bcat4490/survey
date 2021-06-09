@@ -87,3 +87,20 @@ label, p {
     padding-bottom: .5em;
 }
 
+.btn-container label {
+    padding: .3em 0;
+}
+
+.btn-container p {
+    padding: .5em 0;
+}
+
+#submit {
+    background-color: #d5731c;
+    border: 1px solid #d5731c;
+    border-radius: 7px;
+    color: #54361c;
+    font-size: 1.3em;
+    padding: .5em;
+    min-width: 40px;
+}
