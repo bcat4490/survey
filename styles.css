@@ -60,6 +60,10 @@ label, p {
 
 #dropdown {
     width: 100%;
+    background-color: transparent;
+    height: 2.5rem;
+    border: 2px solid #d5731c;
+    border-radius: 15px;
 }
 
 #title {
@@ -83,8 +87,3 @@ label, p {
     padding-bottom: .5em;
 }
 
-.radio {
-    opacity: 0;
-    width: 0px;
-    height: 0px;
-}
